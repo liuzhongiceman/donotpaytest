@@ -14,23 +14,26 @@ export const Container = styled.div`
   min-width: 280px;
   max-width: 280px;
   border: 1px solid #f0f0f0;
-  background: #353535;
+  background: #006990;
   padding: 4px;
   align-self: flex-start;
 `;
 
 export const Header = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #5a5a5a;
+  flex-direction: column;
+  background: #006990;
   padding: 3px 4px;
   
   span {
     font-size: 18px;
     margin-left: 4px;
+    color: #5a5a5a;
+    font-weight:600;
   }
 `;
+
+
 
 export const ColumnTitle = styled.h4`
   font-weight: 100;
@@ -41,21 +44,7 @@ export const ColumnTitle = styled.h4`
   overflow: hidden;
 `;
 
-
 export const HeaderActions = styled.div`
   display: flex;
   align-items: center;
-`;
-
-export const IssueCount = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 10px;
-  width: auto;
-  height: 16px;
-  border: 1px solid #fff189;
-  color: #fff189;
-  font-weight: 400;
-  padding: 0 4px;
 `;

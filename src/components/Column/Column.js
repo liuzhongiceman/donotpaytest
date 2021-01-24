@@ -35,8 +35,8 @@ const Column = ({
 				<Header>
 					<ColumnTitle>{item?.title}</ColumnTitle>
 					<HeaderActions>
-						<Tooltip placement="topLeft" title="Add new issue" arrowPointAtCenter>
-							<PlusSquareOutlined style={{ color: '#2dff79' }} key="add" onClick={() => setIssueModalVisible(true)} />
+						<Tooltip placement="topLeft" title="Add new task" arrowPointAtCenter>
+							<PlusSquareOutlined style={{ color: '#FF9800', width: '100%' }} key="add" onClick={() => setIssueModalVisible(true)} />
 						</Tooltip>
 					</HeaderActions>
 				</Header>

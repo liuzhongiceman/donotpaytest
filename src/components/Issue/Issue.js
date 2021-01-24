@@ -43,7 +43,7 @@ const Issue = ({ item, isFirstColumn, isLastColumn, onEdit, onRemove, onMoveToLe
 			actions={[
 				...moveActions(),
 				<EditOutlined key="edit" onClick={onEdit} />,
-				<Popconfirm placement="bottomLeft" title="Are you sure to delete this issue?" onConfirm={onRemove} okText="Yes" cancelText="No" arrowPointAtCenter>
+				<Popconfirm placement="bottomLeft" title="Are you sure to delete this task?" onConfirm={onRemove} okText="Yes" cancelText="No" arrowPointAtCenter>
 					<DeleteOutlined style={{ color: 'red' }} key="delete" />
 				</Popconfirm>
 			]}
